@@ -1,0 +1,92 @@
+body h1, h2 {
+    text-align: center;
+}
+/*HEADER*/
+header {
+    background-color: rgb(241, 232, 179);
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    margin: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 100px;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+header nav ul img {
+    width: 20px;
+    height: auto;
+}
+#shop {
+    font-size: 20px;
+}
+ul {
+    list-style: none;
+    padding: 0;
+}
+li a {
+    text-decoration: none;
+    color: brown;
+    border: 1px solid rgb(234, 212, 90);
+    background-color: rgb(234, 212, 90);
+    border-radius: 20px;
+    padding: 20px;
+    display: flex;
+}
+/*MAIN*/
+main h1 {
+    font-size: 30px;
+    color: brown;
+}
+main section div img {
+    width: 297px;
+    position: relative;
+    left: -36px;
+    top: -37px;
+}
+main section div a {
+    text-decoration: none;
+    color: brown;
+    border: 1px solid rgb(234, 212, 90);
+    background-color: rgb(234, 212, 90);
+    border-radius: 20px;
+    padding: 7px;
+    padding-left: 45px;
+    padding-right: 45px;
+    display: flex;
+}
+.pMini {
+    font-size: 12px;
+}
+main section div {
+    padding: 37px;
+    border: 1px solid white;
+    margin: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: rgb(241, 232, 179);
+    border-radius: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    overflow: hidden;
+}
+/*FOOTER*/
+footer h2 {
+    font-size: 30px;
+}
+footer h3 {
+    font-size: 20px;
+}
+footer div {
+    border: 1px solid white;
+    background-color: rgb(241, 232, 179);
+    border-radius: 15px;
+    padding: 20px;
+    margin: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+footer div img {
+    width: 250px;;
+}
